@@ -1,28 +1,32 @@
-Real-Time One-to-One Chat Backend (Socket.IO)
+#Real-Time One-to-One Chat Backend (Socket.IO)
 
-Overview
-This project is a backend-only real-time one-to-one chat application built using Node.js and Socket.IO.
-It supports JWT-based socket authentication, real-time messaging, online/offline user status,
-message persistence, and chat history retrieval.
-MongoDB is used as the database and MongoDB Compass is used for database management.
+##Overview
+This project is a **backend-only real-time one-to-one chat application** built using **Node.js and Socket.IO**.  
+It supports **JWT-based socket authentication**, **real-time messaging**, **online/offline user status tracking**, **message persistence**, and **chat history retrieval**.
 
-Tech Stack
+---
+
+## Tech Stack
 - Node.js
 - Express.js
 - Socket.IO
 - MongoDB (MongoDB Compass)
 - Mongoose
-- JWT Authentication
+- JWT (JSON Web Token)
 
-Features
+---
+
+## Features
 - JWT authenticated Socket.IO connections
 - Real-time one-to-one messaging
 - Online and offline user status tracking
 - Messages stored in MongoDB
 - Fetch chat history between users
-- Backend only
+- Backend only (no frontend)
 
-Project Structure
+---
+
+##Project Structure
 realtime-chat-backend/
 ├── src/
 │   ├── config/db.js
@@ -36,7 +40,10 @@ realtime-chat-backend/
 ├── package-lock.json
 └── README.md
 
-Setup Instructions
+---
+
+##Setup Instructions
+
 1. Clone the repository
 2. Install dependencies using npm install
 3. Create a .env file with PORT, MONGO_URI and JWT_SECRET
